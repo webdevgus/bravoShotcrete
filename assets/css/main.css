@@ -103,6 +103,7 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+
 /* Type */
 
 	body, input, select, textarea {
@@ -273,7 +274,7 @@ input, select, textarea {
 	.align-right {
 		text-align: right;
 	}
-
+	
 /* Section/Article */
 
 	section.special, article.special {
