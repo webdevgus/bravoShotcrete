@@ -23,6 +23,24 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+#gallery .image-container {
+    display: flex;
+    flex-wrap: wrap;
+	width: 100%;
+}
+
+#gallery .image-row {
+    width: 100%; 
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 20px;
+}
+
+#gallery img {
+    width: calc(50% - 10px); 
+    height: 210px;
+}
+
 body {
 	line-height: 1;
 }
